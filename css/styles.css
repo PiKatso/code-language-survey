@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+h1 {
+  background-color: #f76961;
+  text-align: center;
+  height: 110px;
+  padding: 30px;
+  margin: 0px;
+}
+
+.getting-started {
+  background-color: #def2ef;
+}
+
 img {
   max-width: 100%;
   overflow: none;
@@ -25,4 +37,6 @@ img {
 
 #rethink{
   display: none;
+  font-weight: bold;
+  font-size: 30px;
 }
