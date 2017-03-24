@@ -5,13 +5,25 @@
 h1 {
   background-color: #f76961;
   text-align: center;
-  height: 110px;
-  padding: 30px;
+  height: 160px;
+  padding: 45px;
   margin: 0px;
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+hr {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .getting-started {
-  background-color: #def2ef;
+  /*background-color: #def2ef;*/
 }
 
 img {
