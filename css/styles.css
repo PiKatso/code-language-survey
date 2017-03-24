@@ -6,3 +6,23 @@ img {
   max-width: 100%;
   overflow: none;
 }
+
+#ruby {
+  display: none;
+}
+
+#php {
+  display: none;
+}
+
+#c-sharp {
+  display: none;
+}
+
+#java{
+  display: none;
+}
+
+#rethink{
+  display: none;
+}
