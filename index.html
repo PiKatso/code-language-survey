@@ -14,12 +14,14 @@
 
         <img src="img/img.jpg" alt="developer work area">
 
-        <h3>Getting Started</h3>
+        <h2>Getting Started</h2>
         <p>
           If you’re looking to learn how to code, the sheer number of programming languages may be overwhelming – what language should you indeed learn?
         </p>
         <p>Fill out this quick questionaire to help you decide the best      programming language you might consider focusing on first.
         </p>
+        <h1>Overview</h1>
+        <p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing. </p>
       </div>
       <hr>
       <!-- Bed questionnaire -->
@@ -59,13 +61,15 @@
         </select>
       </div>
       <form id="question">
+        <div class="form-group">
+          <label for="questionnaire"></label>
+          <input id="day" class="form-control" type="text">
+        </div>
         <button type="submit" class="btn">Find Out What Language You Should Learn</button>
       </form>
       <!-- End questionnaire -->
       <hr>
-      <div class="overview">
-        <h1>Overview</h1>
-        <p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing. </p>
+      <div class="answers">
         <div id="ruby">
           <h3>Ruby</h3>
           <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
