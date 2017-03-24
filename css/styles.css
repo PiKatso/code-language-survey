@@ -1,7 +1,3 @@
-.container-fluid {
-  text-align: center;
-}
-
 h1 {
   background-color: #f76961;
   text-align: center;
@@ -31,10 +27,6 @@ hr {
   font-weight: bold;
 }
 
-.getting-started {
-  /*background-color: #def2ef;*/
-}
-
 select {
   max-width: 400px;
 }
@@ -42,7 +34,6 @@ select {
 button {
   color: white;
   background-color: #f76961;
-
 }
 
 img {

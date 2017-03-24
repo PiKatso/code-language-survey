@@ -12,13 +12,17 @@ $(document).ready(function(){
 
    if (question5 === "Obsolete"){
       $("#rethink").show();
-    } else if (question1 === "Be a professional developer"){
+    } else if ((question1 === "To run a startup<") || (question2 === "Start ups")){
+      $("#ruby").show();
+    } else if ((question2 === "Established employer") || (question3 === "Software Development")){
+      $("#c-sharp").show();
+    } else if ((question3 === "Mobile Aps") || (question1 === "Enterprise")){
+      $("#php").show();
+    } else if ((question4 === "How things work (logic)") || (question1 === "Established employer")){
+      $("#c-sharp").show();
+    } else if (question1 === "Be a professional developer") {
       $("#ruby").show();
     } else if (question2 === "Established employer"){
-      $("#c-sharp").show();
-    } else if (question3 === "Branding Websites"){
-      $("#php").show();
-    } else if (question4 === "How things work (logic)"){
       $("#c-sharp").show();
     } else {
        $("#rethink").show();
