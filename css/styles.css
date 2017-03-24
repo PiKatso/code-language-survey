@@ -5,7 +5,7 @@
 h1 {
   background-color: #f76961;
   text-align: center;
-  height: 160px;
+  height: 100%;
   padding: 45px;
   margin: 0px;
   font-size: 40px;
@@ -14,16 +14,35 @@ h1 {
 h2 {
   margin-bottom: 50px;
   margin-top: 50px;
+}
 
+h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 hr {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.blue-bg {
+  color: #1f8ca0;
+  font-weight: bold;
 }
 
 .getting-started {
   /*background-color: #def2ef;*/
+}
+
+select {
+  max-width: 400px;
+}
+
+button {
+  color: white;
+  background-color: #f76961;
+
 }
 
 img {
