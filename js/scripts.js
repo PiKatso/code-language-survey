@@ -11,38 +11,38 @@ $(document).ready(function(){
    if (question5 === "Obsolete"){
       $("#rethink").show();
       $("#c-sharp").hide();
-      $("#php").hide();
       $("#ruby").hide();
-    } else if ((question1 === "To run a startup<") || (question2 === "Start ups")){
-      $("#ruby").show();
-      $("#c-sharp").hide();
       $("#php").hide();
+    } else if ((question1 === "To run a startup<") || (question2 === "Start ups")){
       $("#rethink").hide();
+      $("#c-sharp").hide();
+      $("#ruby").show();
+      $("#php").hide();
     } else if ((question2 === "Established employer") || (question3 === "Software Development")){
       $("#c-sharp").show();
-      $("#php").hide();
-      $("#ruby").hide();
       $("#rethink").hide();
-    } else if ((question3 === "Mobile Aps") || (question1 === "Enterprise")){
-      $("#php").show();
+      $("#ruby").hide();
+      $("#php").hide();
+    } else if ((question3 === "Mobile Aps") || (question2 === "Enterprise")){
+      $("#rethink").hide();
       $("#c-sharp").hide();
       $("#ruby").hide();
-      $("#rethink").hide();
+      $("#php").show();
     } else if ((question4 === "How things work (logic)") || (question1 === "Established employer")){
       $("#c-sharp").show();
+      $("#rethink").hide();
       $("#php").hide();
       $("#ruby").hide();
-      $("#rethink").hide();
     } else if (question1 === "Be a professional developer") {
-      $("#ruby").show();
-      $("#c-sharp").hide();
-      $("#php").hide();
       $("#rethink").hide();
+      $("#c-sharp").hide();
+      $("#ruby").show();
+      $("#php").hide();
     } else if (question2 === "Established employer"){
       $("#c-sharp").show();
-      $("#php").hide();
-      $("#ruby").hide();
       $("#rethink").hide();
+      $("#ruby").hide();
+      $("#php").hide();
     } else {
        $("#rethink").show();
        $("#c-sharp").hide();
